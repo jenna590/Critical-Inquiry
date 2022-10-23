@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffefd6;
+}
+
+/* HOME: OBJECTS */
+
+#obj0, #obj1, #obj2, #obj3, #obj4, #obj5, #obj6, #obj7, #obj8, #obj9, #obj10 {
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    background-color: black;
+    opacity: 40%;
+    color: white;
+}
+#obj0{
+    top: 100px;
+    left: 300px;
+}
+#obj1{
+    top: 350px;
+    left: 90px;
+}
+#obj2{
+    bottom: 75px;
+    right: 100px;
+}
+#obj3{
+    bottom: 400px;
+    right: 100px;
+}
+#obj4{
+    bottom: 75px;
+    right: 200px;
+}
+#obj5{
+    top: 200px;
+    left: 200px;
+}
+#obj6{
+    top: 50px;
+    right: 250px;
+}
+#obj7{
+    top: 400px;
+    left: 400px;
+}
+#obj8{
+    bottom: 230px;
+    left: 340px;
+}
+#obj9{
+    bottom: 304px;
+    left: 600px;
+}
+#obj10{
+    bottom: 170px;
+    left: 700px;
+}
+
+/* TOP NAV LINK */
+
+.aboutnav1, .backtohome, .aboutnav2{
+   position: absolute;
+   top: 0;
+   width: 170px;
+   height:  70px;
+   color: black;
+   text-align: center;
+   padding-top: 20px;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: 20px;
+   border: 2px solid black;
+}
+.aboutnav1{
+    background-color: red;
+    left: 0;
+}
+.aboutnav2{
+    background-color:blue;
+    right: 0;
+}
+.backtohome{
+    background-color: yellow;
+    left: 0;
+}
+
+/* CONTRIBUTOR NAMES */
+
+.names{
+    position: absolute;
+    right: 30px;
+    font-family: sans-serif;
+    width: 100px;
+    
+}
+.names a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ABOUT FOOTER */
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    height: 70px;
+    width: 100vw;
+}
